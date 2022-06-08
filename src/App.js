@@ -1,9 +1,12 @@
+import React, { useState } from 'react';
 import './App.css';
 import Navigation from './Navigation'
 
 function App() {
   return (
-    <Navigation />
+    <>
+      <Navigation />
+    </>
   );
 }
 
