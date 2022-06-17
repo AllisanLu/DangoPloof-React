@@ -9,6 +9,7 @@ import Footer from './Footer'
 
 import Home from './Home'
 import About from './About'
+import Commissions from './Commissions';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/about' element={<About/>} />
+        <Route path='/commissions' element={<Commissions/>} />
       </Routes>
       <Footer />
     </Router>

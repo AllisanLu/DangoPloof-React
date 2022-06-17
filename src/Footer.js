@@ -4,7 +4,7 @@ import './site.css';
 export default function Navigation() {
     return(
     <footer>
-    <div class="auto-align">
+    <div className="auto-align">
         <h2>Stay connected!</h2>
 
         <ul className="contact-list">

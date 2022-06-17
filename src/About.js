@@ -5,10 +5,10 @@ import './about.css'
 export default function Navigation() {
     return(
         <div>
-            <section class="about">
+            <section className="about">
         <h2>About</h2>
-        <div class="box">
-            <div><img class="chibi" src="images/zebs_outline.png" alt="chibi allison" /></div>
+        <div className="box">
+            <div><img className="chibi" src="images/zebs_outline.png" alt="chibi allison" /></div>
             <div>
                 <p>
                     Hello! I'm Allison, and I make crochets~
