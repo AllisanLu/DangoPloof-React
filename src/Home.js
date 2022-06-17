@@ -1,8 +1,16 @@
 import React from 'react'
 import './site.css';
 import OrdersList from './OrdersList'
+//import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+
+    // let navigate = useNavigate(); 
+    // const routeChange = (newPath) =>{ 
+    //     let path = newPath; 
+    //     navigate(path);
+    // }
+  
     return(
         <div>
         <section className="welcome">
@@ -14,10 +22,10 @@ export default function Home() {
                     <h2>❤ Ploofs of love</h2>
                 </section>
                 <section className="button-row">
-                    <button className="button" onClick="window.location.href = 'commissions'">Customs</button>
-                    <button className="button" onClick="window.location.href = 'https://www.etsy.com/shop/DangoPloof'">Etsy (Patterns)</button>
-                    <button className="button" onClick="window.location.href = 'https://www.instagram.com/dango.ploof/'">Instagram</button>
-                    <button className="button" onClick="window.location.href = 'shop'">Shop</button>
+                    <a href="/commissions"><button className="button">Customs</button></a>
+                    <a href="https://www.etsy.com/shop/DangoPloof"><button className="button">Etsy (Patterns)</button></a>
+                    <a href="https://www.instagram.com/dango.ploof/"><button className="button">Instagram</button></a>
+                    {/* <button className="button" onClick= {routeChange("/shop")}>Shop</button> */}
                 </section>
             </div>
         </div>
