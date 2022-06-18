@@ -83,7 +83,8 @@ h3 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 10px;
+    padding-bottom: 5%;
+    padding-top: 2%;
 }
 
 .small-section:last-of-type {
@@ -162,10 +163,11 @@ header {
     Button
 **/
 .button-row {
-    padding: 10px;
+    padding: 2%;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -193,10 +195,10 @@ header {
         Tables
     */
 table {
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 table img {

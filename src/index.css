@@ -31,8 +31,8 @@ ________________________________________________________
   Welcome ur momadadadzxzxzxzxdddsasaddseweqeddasdsaczczxxzczcxczx - Jeffrey
   ------------------------------------------------*/
 .welcome {
-    margin: 0px;
-    padding: 30px 10px 20px;
+    margin: 0%;
+    padding: 5%;
     text-align: center;
     color: #a36264;
     background-image: url('../public/images/collage.png');
@@ -42,8 +42,8 @@ ________________________________________________________
 }
 .welcome-content {
     background-color: rgb(75 41 94 / 0.85);
-    margin: 20px;
-    padding: 10px 0px 10px;
+    margin: 1%;
+    padding: 2% 0% 2%;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -65,9 +65,9 @@ ________________________________________________________
   ------------------------------------------------*/
   .featured {
     font-family: "Hashed Browns", "sans-serif";
-    padding-left: 15px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
   }
   .featured p {
     font-family: "Pumpkin Story", "sans-serif";
@@ -80,12 +80,12 @@ ________________________________________________________
   ------------------------------------------------*/
   .calendar {
     font-family: "Hashed Browns", "sans-serif";
-    padding-left: 15px;
-    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-bottom: 8%;
   }
   .calendar p {
     font-family: "Pumpkin Story", "sans-serif";
-    padding: 0px;
+    padding: 0%;
   }
 
   .details {
@@ -93,6 +93,6 @@ ________________________________________________________
       display:block;
       margin-left: auto;
       margin-right: auto;
-      padding-bottom: 80px;
+      padding-bottom: 30%;
   }
   
